@@ -1,0 +1,8 @@
+<% @characters.each do |char| %>
+  <section class="character-section">
+    <h3>Name: <%= char.name %></h3>
+    <p>Role: <%= char.role  %></p>
+    <p>House: <%= char.house %></p>
+    <p>Patronus: <%= char.patronus %></p>
+  </section>
+<% end %>
